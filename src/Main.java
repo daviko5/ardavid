@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println("Lista de los libros:");
         miLibreria.listadeLibros();
-        System.out.println("lista ordenada");
+        System.out.println("lista ordenada A-Z");
         miLibreria.listaordenada();
 
         System.out.println("\nBuscando libro 'odisea':");
