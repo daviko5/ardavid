@@ -8,6 +8,7 @@ public class Main {
         miLibreria.aniadirLibro(new Libro("odisea", "Homero","777"));
         miLibreria.aniadirLibro(new Libro("Don Quijote", "Miguel de Cervantes", "0101"));
         miLibreria.aniadirLibro(new Libro("cien años de soledad", "Gbriel garcia marquez", "2"));
+        miLibreria.aniadirLibro(new Libro("padre rico padre pobre", "robert kiyosaki", "4"));
 
 
         System.out.println("Lista de los libros:");
