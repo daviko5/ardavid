@@ -5,8 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         Libreria miLibreria = new Libreria();
 
-        miLibreria.aniadirLibro(new Libro("odisea", "Homero","777"));
-        miLibreria.aniadirLibro(new Libro("Don Quijote", "Miguel de Cervantes", "0101"));
+       //eliminamos dos objetos para probar las ramas
         miLibreria.aniadirLibro(new Libro("cien años de soledad", "Gbriel garcia marquez", "2"));
         miLibreria.aniadirLibro(new Libro("padre rico padre pobre", "robert kiyosaki", "4"));
 
