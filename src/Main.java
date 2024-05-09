@@ -8,9 +8,11 @@ public class Main {
        //eliminamos dos objetos para probar las ramas
         miLibreria.aniadirLibro(new Libro("cien años de soledad", "Gbriel garcia marquez", "2"));
         miLibreria.aniadirLibro(new Libro("padre rico padre pobre", "robert kiyosaki", "4"));
+        // PARA PROBRAR  MERGE
 
 
-        
+
+
         System.out.println("lista ordenada A-Z");
         miLibreria.listaordenada();
 
