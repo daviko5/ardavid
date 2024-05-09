@@ -10,8 +10,7 @@ public class Main {
         miLibreria.aniadirLibro(new Libro("padre rico padre pobre", "robert kiyosaki", "4"));
 
 
-        System.out.println("Lista de los libros:");
-        miLibreria.listadeLibros();
+        
         System.out.println("lista ordenada A-Z");
         miLibreria.listaordenada();
 
