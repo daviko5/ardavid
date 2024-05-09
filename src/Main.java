@@ -12,6 +12,8 @@ public class Main {
 
         System.out.println("Lista de los libros:");
         miLibreria.listadeLibros();
+        System.out.println("lista ordenada");
+        miLibreria.listaordenada();
 
         System.out.println("\nBuscando libro 'odisea':");
         Libro libroBuscado = miLibreria.buscarLibro("odisea");

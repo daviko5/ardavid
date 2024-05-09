@@ -1,4 +1,7 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
 public class Libreria {
     private ArrayList<Libro> libros;
 
@@ -9,6 +12,13 @@ public class Libreria {
     // Método para añadir un libro
     public void aniadirLibro(Libro libro) {
         libros.add(libro);
+    }
+    public void listaordenada(){
+        Collections.sort(libros, Comparator.comparing(Libro::getCodigo));
+        for (Libro l : libros){
+            System.out.println(l);
+        }
+
     }
 
     // Método para buscar un libro por título
