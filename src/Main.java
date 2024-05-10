@@ -10,8 +10,7 @@ public class Main {
         miLibreria.aniadirLibro(new Libro("padre rico padre pobre", "robert kiyosaki", "4"));
         // PARA PROBRAR  MERGE
         miLibreria.listaordenada();
-
-
+    
         System.out.println("\nBuscando libro 'odisea':");
         Libro libroBuscado = miLibreria.buscarLibro("odisea");
         if (libroBuscado != null) {
