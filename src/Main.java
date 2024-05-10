@@ -9,12 +9,8 @@ public class Main {
         miLibreria.aniadirLibro(new Libro("cien años de soledad", "Gbriel garcia marquez", "2"));
         miLibreria.aniadirLibro(new Libro("padre rico padre pobre", "robert kiyosaki", "4"));
         // PARA PROBRAR  MERGE
-
-
-
-
-
         miLibreria.listaordenada();
+        milibreria.listadelibro();
 
         System.out.println("\nBuscando libro 'odisea':");
         Libro libroBuscado = miLibreria.buscarLibro("odisea");
