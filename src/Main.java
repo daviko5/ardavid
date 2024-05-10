@@ -13,7 +13,7 @@ public class Main {
 
 
 
-        System.out.println("lista ordenada A-Z");
+
         miLibreria.listaordenada();
 
         System.out.println("\nBuscando libro 'odisea':");
