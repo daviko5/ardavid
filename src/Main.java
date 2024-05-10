@@ -9,7 +9,7 @@ public class Main {
         miLibreria.aniadirLibro(new Libro("cien años de soledad", "Gbriel garcia marquez", "2"));
         miLibreria.aniadirLibro(new Libro("padre rico padre pobre", "robert kiyosaki", "4"));
 
-
+        miLibreria.listadeLibros();
         
         System.out.println("lista ordenada A-Z");
         miLibreria.listaordenada();
